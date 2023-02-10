@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap');
+
+*{
+    margin: 0;
+    /* padding: 0px;
+    box-sizing: border-box; */
+}
+
+
+
+body{
+    background: #FFFFFF;
+}
+
+.header{
+    height: 160px;
+    /* Alineando el nav */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.header nav{
+    height: 100%;
+    width: 100%;
+    /* width: 90%; */
+    /* centrando la cajita */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .logo{
+    height: 160px;
+}
+
+.header .navLinks{
+    width: 48.96%;
+
+    /* Quitamos puntitos de la lista que no nos interesa */
+    list-style: none;
+    
+    /* Alineamos el texto horizonalmente */
+    display: flex;
+    justify-content:space-around;
+
+    /* La fuente y tamaño de las letras */
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 23px;
+    
+}
+
+.divTitleBox{
+    background-color: blanchedalmond;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleBox{
+    background-color: red;
+    height: 50%;
+    display: grid;
+    place-items: center;
+    width: 50%;
+}
+
+/* Empezamos con el bloque "block1" */
+
+.block1{
+    display: flex;
+    
+}
+
+.imageBlock1{
+    width: 58.61%;
+    background-color: red;
+    /* width: 100%; */
+}
+
+
+
+.titleBlock1 h1{
+
+    font-family: 'League Spartan', sans-serif;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 110px;
+    letter-spacing: 0em;
+    text-align: left;
+/*     
+    color: linear-gradient(0deg, #2180A5, #2180A5),
+linear-gradient(0deg, #E5F7F8, #E5F7F8);
+
+    -webkit: 6px solid rgba(33, 128, 165, 1); */
+
+    -webkit-text-stroke: 3px #2180A5;
+    color: #E5F7F8;
+    
+    
+    
+
+}
